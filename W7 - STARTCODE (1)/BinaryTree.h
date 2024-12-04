@@ -120,12 +120,7 @@ private:
           postOrder(node->right,result);
           result += std::to_string(node->data) + " ";
 
-    }
-    
+    }   
 };
-
-  //Exercise2
-  
-
 #endif // BINARYTREE_H
 
